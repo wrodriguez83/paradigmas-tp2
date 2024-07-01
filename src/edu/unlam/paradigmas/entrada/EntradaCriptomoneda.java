@@ -1,7 +1,7 @@
 package edu.unlam.paradigmas.entrada;
 
-import edu.unlam.paradigmas.moneda.Criptomoneda;
-import edu.unlam.paradigmas.moneda.Criptomonedas;
+import edu.unlam.paradigmas.mercado.Criptomoneda;
+import edu.unlam.paradigmas.mercado.Criptomonedas;
 import edu.unlam.paradigmas.validador.ValidarString;
 
 public class EntradaCriptomoneda extends Entrada<Criptomoneda> {

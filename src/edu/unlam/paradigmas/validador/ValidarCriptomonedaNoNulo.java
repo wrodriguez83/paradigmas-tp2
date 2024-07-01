@@ -2,8 +2,8 @@ package edu.unlam.paradigmas.validador;
 
 import edu.unlam.paradigmas.core.Helper;
 import edu.unlam.paradigmas.excepcion.EntidadInexistenteExcepcion;
-import edu.unlam.paradigmas.moneda.Criptomoneda;
-import edu.unlam.paradigmas.moneda.Criptomonedas;
+import edu.unlam.paradigmas.mercado.Criptomoneda;
+import edu.unlam.paradigmas.mercado.Criptomonedas;
 
 public class ValidarCriptomonedaNoNulo extends Validador {
 

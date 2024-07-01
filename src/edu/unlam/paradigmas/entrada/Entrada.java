@@ -29,7 +29,6 @@ public abstract class Entrada<T> {
 				}
 
 				entradaValida = true;
-
 			} catch (Exception e) {
 				Consola.error(e.getMessage());
 				intentos--;
@@ -44,9 +43,5 @@ public abstract class Entrada<T> {
 		return entradaConvertida;
 	}
 
-	// protected Boolean validar(T valor, Validador<T> validador) {
-	// return true;
-	// }
 	protected abstract T convertir(String valor);
-
 }

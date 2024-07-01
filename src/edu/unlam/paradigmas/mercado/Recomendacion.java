@@ -1,4 +1,4 @@
-package edu.unlam.paradigmas.moneda;
+package edu.unlam.paradigmas.mercado;
 
 import edu.unlam.paradigmas.core.Consola;
 import edu.unlam.paradigmas.core.Helper;

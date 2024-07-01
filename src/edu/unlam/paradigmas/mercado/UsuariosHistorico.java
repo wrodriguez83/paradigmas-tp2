@@ -1,4 +1,4 @@
-package edu.unlam.paradigmas.usuario;
+package edu.unlam.paradigmas.mercado;
 
 import java.util.Comparator;
 import java.util.List;
@@ -6,8 +6,7 @@ import java.util.List;
 import edu.unlam.paradigmas.core.CSV;
 import edu.unlam.paradigmas.core.Consola;
 import edu.unlam.paradigmas.core.Helper;
-import edu.unlam.paradigmas.moneda.Criptomoneda;
-import edu.unlam.paradigmas.moneda.Criptomonedas;
+import edu.unlam.paradigmas.usuario.Trader;
 
 public class UsuariosHistorico {
 //	private static final String ARCHIVO_CSV = "_historico.csv";

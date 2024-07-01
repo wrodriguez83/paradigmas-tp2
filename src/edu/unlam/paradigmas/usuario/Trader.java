@@ -8,6 +8,7 @@ import java.util.Objects;
 import edu.unlam.paradigmas.core.Consola;
 import edu.unlam.paradigmas.core.Helper;
 import edu.unlam.paradigmas.excepcion.EntidadInvalidaExcepcion;
+import edu.unlam.paradigmas.mercado.Historico;
 
 public class Trader extends Usuario {
 	protected List<Historico> historico = new ArrayList<>();

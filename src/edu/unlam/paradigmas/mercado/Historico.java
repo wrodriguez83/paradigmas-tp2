@@ -1,4 +1,4 @@
-package edu.unlam.paradigmas.usuario;
+package edu.unlam.paradigmas.mercado;
 
 import java.text.DecimalFormat;
 import java.util.Objects;
@@ -7,7 +7,6 @@ import edu.unlam.paradigmas.core.Consola;
 import edu.unlam.paradigmas.core.Exportable;
 import edu.unlam.paradigmas.core.Helper;
 import edu.unlam.paradigmas.excepcion.EntidadInvalidaExcepcion;
-import edu.unlam.paradigmas.moneda.Criptomoneda;
 
 public class Historico implements Exportable {
 	protected Criptomoneda criptomoneda;
@@ -22,8 +21,12 @@ public class Historico implements Exportable {
 		this.cantidad = cantidad;
 	}
 
-	public Double getCantidad() {
-		return cantidad;
+	public void comprar(Double cantidad) {
+		this.cantidad += cantidad;
+	}
+
+	public void vender(Double cantidad) {
+		this.cantidad -= cantidad;
 	}
 
 	@Override
